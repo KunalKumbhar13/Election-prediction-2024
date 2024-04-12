@@ -12,7 +12,7 @@ import seaborn as sns
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Predictive Modeling in Political Voting 2024")
 st.markdown("Indian Election Prediction involves analyzing various factors such as demographic data, historical voting patterns, public opinion surveys, and socio-economic indicators to forecast the outcome of elections in India. With the vast diversity in the electorate and the complex political landscape, accurate prediction requires sophisticated statistical models and machine learning algorithms. Factors such as party alliances, candidate popularity, campaign strategies, and regional dynamics also play crucial roles. Election prediction in India is not only a matter of statistical analysis but also involves understanding the pulse of the electorate and interpreting the ever-changing political scenario to provide meaningful insights and forecasts.")
-df=pd.read_csv("G:\Python\Streamlit\election survey 2_csv.csv")
+df=pd.read_csv(r"Streamlit/election survey 2_csv.csv")
 st.write("Raw Data:")
 st.dataframe(df)
 st.write("Columns:",df.shape[1])
