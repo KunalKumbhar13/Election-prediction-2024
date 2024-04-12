@@ -158,7 +158,7 @@ st.pyplot(plt.show())
 
 st.subheader("Distribution of votes to re_elect_govt by Occupation:male-scientist::judge::male-scientist::male-technologist:",divider='rainbow')
 st.subheader("Young People and Govermnet (Emp) have High counts for votes:thumbsup:")
-st.image("G:\Python\Streamlit\output4.png", caption='Every One Should Vote', use_column_width=True)
+st.image(r"https://raw.githubusercontent.com/KunalKumbhar13/Election-prediction-2024/main/Streamlit/output4.png", caption='Every One Should Vote', use_column_width=True)
 
 #df.columns
 
