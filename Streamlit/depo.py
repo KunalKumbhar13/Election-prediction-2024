@@ -354,7 +354,7 @@ df2['Age'].fillna(column_mode, inplace=True)
 
 st.subheader("Count of Traditionly Supported and Currently their strong choice",divider='rainbow')
 st.subheader("As we can see BJP Previously also have strong public Support and Current Support also.:handshake:")
-st.image("G:\Python\Streamlit\output2.png", caption='Strong Support of People towards BJP', use_column_width=True)
+st.image(r"https://raw.githubusercontent.com/KunalKumbhar13/Election-prediction-2024/main/Streamlit/output2.png", caption='Strong Support of People towards BJP', use_column_width=True)
 st.subheader("Current Govt. Satisfaction vs. Re-elect govt:question:",divider='rainbow')
 st.subheader("As we can see People want Change.:arrows_counterclockwise:")
 st.image("G:\Python\Streamlit\output3.png", caption='Winning Part BJP.', use_column_width=True)
