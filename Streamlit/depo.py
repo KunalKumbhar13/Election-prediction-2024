@@ -357,7 +357,7 @@ st.subheader("As we can see BJP Previously also have strong public Support and C
 st.image(r"https://raw.githubusercontent.com/KunalKumbhar13/Election-prediction-2024/main/Streamlit/output2.png", caption='Strong Support of People towards BJP', use_column_width=True)
 st.subheader("Current Govt. Satisfaction vs. Re-elect govt:question:",divider='rainbow')
 st.subheader("As we can see People want Change.:arrows_counterclockwise:")
-st.image("G:\Python\Streamlit\output3.png", caption='Winning Part BJP.', use_column_width=True)
+st.image(r"https://raw.githubusercontent.com/KunalKumbhar13/Election-prediction-2024/main/Streamlit/output3.png", caption='Winning Part BJP.', use_column_width=True)
 st.subheader("Preference of Vote if Elections are held Tommorow	:grey_question:",divider='rainbow')
 st.subheader("As we can see BJP has Winning Luck in this Election.:first_place_medal:")
 st.image("G:\Python\Streamlit\output1.png", caption='Winning Party BJP.', use_column_width=True)
