@@ -352,7 +352,7 @@ column_mode = df2['Age'].mode()[0]
 df2['Age'].fillna(column_mode, inplace=True)
 #now no null values
 
-st.subheader("Count of Tradictionly Supported and Currently their strong choice",divider='rainbow')
+st.subheader("Count of Traditionly Supported and Currently their strong choice",divider='rainbow')
 st.subheader("As we can see BJP Previously also have strong public Support and Current Support also.:handshake:")
 st.image("G:\Python\Streamlit\output2.png", caption='Strong Support of People towards BJP', use_column_width=True)
 st.subheader("Current Govt. Satisfaction vs. Re-elect govt:question:",divider='rainbow')
