@@ -34,7 +34,7 @@ st.pyplot(plt.show())
 sns.countplot(x='Gender:\n', data=df, hue=' Will you vote in upcoming elections?\n')
 st.subheader('Voting Pattern by Gender:woman::man:', divider='rainbow')
 st.subheader('Male Count is Higher as compare to Female.')
-st.pyplot(plt.show())
+st.pyplot(plt.subplots())
 
 
 ##GENDER ENCODING
