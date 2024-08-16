@@ -34,7 +34,7 @@ st.pyplot()
 sns.countplot(x='Gender:\n', data=df, hue=' Will you vote in upcoming elections?\n')
 st.subheader('Voting Pattern by Gender:woman::man:', divider='rainbow')
 st.subheader('Male Count is Higher as compare to Female.')
-st.pyplot(plt.figure())
+st.pyplot()
 
 
 ##GENDER ENCODING
@@ -54,7 +54,7 @@ plt.xlabel('Age')
 plt.ylabel('Frequency')
 st.subheader('Age Distribution:girl::boy::woman::man::white_haired_man:', divider='rainbow')
 st.subheader('As we can see Age Group between 21 to 55 have Highest count. ')
-st.pyplot(plt.subplots())
+st.pyplot()
 
 
 
@@ -125,7 +125,7 @@ plt.pie(religion_counts, labels=religion_counts.index, autopct='%1.1f%%', colors
 plt.title('Distribution of Religion')
 st.subheader('Distribution By Religion 🕉️☪️☸️✝️', divider='rainbow')
 st.subheader("As we can see Hindu Population is greater as compare to Other Religion's")
-st.pyplot(plt.subplots())
+st.pyplot()
 
 df.rename(columns={'religion \n': 'Religion'}, inplace=True)
 
@@ -154,7 +154,7 @@ plt.ylabel('Frequency')
 plt.xticks(rotation=90)
 st.subheader('Important Issues In India:heavy_exclamation_mark:', divider='rainbow')
 st.subheader("Price Rise/Inflation is the BIG ISSUE faced by our Country:chart_with_downwards_trend:")
-st.pyplot(plt.subplots())
+st.pyplot()
 
 st.subheader("Distribution of votes to re_elect_govt by Occupation:male-scientist::judge::male-scientist::male-technologist:",divider='rainbow')
 st.subheader("Young People and Govermnet (Emp) have High counts for votes:thumbsup:")
@@ -177,7 +177,7 @@ plt.ylabel('Frequency')
 plt.xticks(rotation=90)
 st.subheader('Issues Or Political Personality:question:', divider='rainbow')
 st.subheader("Election Issues has High Frequency.:chart_with_upwards_trend:")
-st.pyplot(plt.subplots())
+st.pyplot()
 ##encoding mothly income
 df.rename(columns={' monthly household income \n': 'Monthly Income'}, inplace=True)
 
