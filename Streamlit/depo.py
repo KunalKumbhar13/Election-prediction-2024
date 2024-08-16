@@ -28,7 +28,7 @@ plt.ylabel('Frequency')
 plt.xticks(rotation=0)
 st.subheader('Male and Female Distribution Ratio :woman::man:', divider='rainbow')
 st.subheader('Male Ratio is Higher as compare to Female.')
-st.pyplot(plt.figure())
+st.pyplot()
 
 ##voting pattern by genders
 sns.countplot(x='Gender:\n', data=df, hue=' Will you vote in upcoming elections?\n')
